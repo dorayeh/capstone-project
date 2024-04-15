@@ -1,6 +1,6 @@
 # capstone-team-29
 
-# Image-to-text Model for Social Media Network
+# Image-to-text Model for Social Media Network Analysis
 
 Code for the image-to-text model to generate captions and entities from social media content.
 
