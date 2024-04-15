@@ -6,20 +6,20 @@ Code for the image-to-text model to generate captions and entities from social m
 
 ## Requirements
 
-  <review with Jerry> e.g. AWS requirements and *used libraries*!
-  import boto3
-  import jsonimport requests
-  import nltk
-  from nltk.corpus import stopwords
-  from PIL import Image
-  from transformers import AutoProcessor, AutoModelForVision2Seq
-  from PIL import Image
-  import requests
-  from transformers import Blip2Processor, Blip2ForConditionalGeneration
-  import torch
-  import pandas as pd
-  import networkx as nx  
-  from itertools import combinations
+      <review with Jerry> e.g. AWS requirements and *used libraries*!
+  import boto3<br />
+  import jsonimport requests<br />
+  import nltk<br />
+  from nltk.corpus import stopwords<br />
+  from PIL import Image<br />
+  from transformers import AutoProcessor, AutoModelForVision2Seq<br />
+  from PIL import Image<br />
+  import requests<br />
+  from transformers import Blip2Processor, Blip2ForConditionalGeneration<br />
+  import torch<br />
+  import pandas as pd<br />
+  import networkx as nx<br />
+  from itertools import combinations<br />
   
 ## Files
 
