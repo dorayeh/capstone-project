@@ -6,7 +6,7 @@ Code for the image-to-text model to generate captions and entities from social m
 
 ## Requirements
 
-  <review with Jerry> e.g. AWS requirements
+  <review with Jerry> e.g. AWS requirements and *used libraries*!
 
 ## Files
 
