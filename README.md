@@ -7,7 +7,20 @@ Code for the image-to-text model to generate captions and entities from social m
 ## Requirements
 
   <review with Jerry> e.g. AWS requirements and *used libraries*!
-
+  import boto3
+  import jsonimport requests
+  import nltk
+  from nltk.corpus import stopwords
+  from PIL import Image
+  from transformers import AutoProcessor, AutoModelForVision2Seq
+  from PIL import Image
+  import requests
+  from transformers import Blip2Processor, Blip2ForConditionalGeneration
+  import torch
+  import pandas as pd
+  import networkx as nx  
+  from itertools import combinations
+  
 ## Files
 
   * > review ```amazon-rekognition.ipynb``` -- code to send images to Amazon cloud-based image and video analysis service.
