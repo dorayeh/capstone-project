@@ -11,9 +11,6 @@ Code for the image-to-text model to generate captions and entities from social m
   * ```blip2-opt-2_7b.ipynb``` -- code to run BLIP  (Bootstrapping Language Image Pre-training) model for visual question answering.
   * ```kosmos-2-patch14-224.ipynb``` -- code to run image processor and tokenizer.
   * ```network_analysis_on_nodexl_data.ipynb``` -- code for generating networks from image-to-text data
-  * >review ```annotations.zip``` 
-  * >review ```test.zip```
-  * >review ```val.zip```
 
 ## Table of Contents
 
@@ -27,7 +24,10 @@ Code for the image-to-text model to generate captions and entities from social m
 
 Instructions on how to install and set up the project.
 
-(e.g. Download files - needed?)
+  * ```annotations.zip``` -- link to download the [annotations file](https://vizwiz.cs.colorado.edu/VizWiz_final/caption/annotations.zip) with 117,155 training captions; 40,000 test captions; and 38,750 validation captions.
+  * ```train.zip``` -- link to download the [train dataset](https://vizwiz.cs.colorado.edu/VizWiz_final/images/train.zip) with 23,431 images. 
+  * ```test.zip```  -- link to download the [test dataset](https://vizwiz.cs.colorado.edu/VizWiz_final/images/test.zip) with 8,000 images. 
+  * ```val.zip``` -- link to download the [validations dataset](https://vizwiz.cs.colorado.edu/VizWiz_final/images/val.zip) with 7,750 images. 
 
 ## Usage
 
