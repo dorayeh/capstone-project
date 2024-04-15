@@ -4,6 +4,10 @@
 
 Code for the image-to-text model to generate captions and entities from social media content.
 
+## Requirements
+
+  <review with Jerry> e.g. AWS requirements
+
 ## Files
 
   * > review ```amazon-rekognition.ipynb``` -- code to send images to Amazon cloud-based image and video analysis service.
@@ -16,7 +20,6 @@ Code for the image-to-text model to generate captions and entities from social m
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [Credits](#credits)
 - [References](#references)
 
@@ -29,13 +32,13 @@ Instructions on how to install and set up the project.
   * ```test.zip```  -- link to download the [test dataset](https://vizwiz.cs.colorado.edu/VizWiz_final/images/test.zip) with 8,000 images .jpg format. 
   * ```val.zip``` -- link to download the [validations dataset](https://vizwiz.cs.colorado.edu/VizWiz_final/images/val.zip) with 7,750 images .jpg format. 
 
-## Setup
+## Usage
 
 Guidance on how to use the project, including examples or code snippets.
 
 ## Credits
 
-Acknowledgment of individuals or organizations that have contributed to the project.
+We extend our sincere appreciation to the [Social Media Research Foundation](https://www.smrfoundation.org/) and [Nodel XL Team](https://nodexl.com/) for their invaluable support and resources.
 
 ## References 
 
