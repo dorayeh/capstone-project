@@ -6,14 +6,18 @@ Code for the image-to-text model to generate captions and entities from social m
   
 ## Files
 
-  * ```amazon-rekognition.ipynb``` -- code to send images to Amazon cloud-based image and video analysis service.
-  * ```amazon_rekognition_on_nodexl_query.ipynb``` -- code to extract image-to-text labels from NodeXL sample file.
-  * ```blip2-opt-2_7b.ipynb``` -- code to run BLIP  (Bootstrapping Language Image Pre-training) model for visual question answering.
-  * ```kosmos-2-patch14-224.ipynb``` -- code to run image processor and tokenizer.
-  * ```network_analysis_on_nodexl_data.ipynb``` -- code for generating networks from image-to-text data
-  * ```model_evaluation_kosmos.ipynb``` -- code for generating networks from image-to-text data
+  * ```amazon-rekognition.ipynb``` -- send images to Amazon cloud-based image and video analysis service <update>
+  * ```blip2-opt-2_7b.ipynb``` -- run BLIP (Bootstrapping Language Image Pre-training) model for visual captioning
+  * ```kosmos-2-patch14-224.ipynb``` -- run visual captioning and entities extraction tasks using Kosmos-2
+  * ```model_evaluation_kosmos.ipynb``` -- code for evaluation from image-to-text data
   * ```model_evaluation_blip2.ipynb``` -- code for generating networks from image-to-text data
   * ```model_evaluation_AWS.ipynb``` -- code for generating networks from image-to-text data
+  * ```amazon_rekognition_on_nodexl_query.ipynb``` -- code to extract image-to-text labels from NodeXL sample file.
+  * ```network_analysis_on_nodexl_data.ipynb``` -- code for generating networks from image-to-text data.
+  * ```blip2_val_outputs.csv``` -- dataset with the outputs from 
+  * ```kosmos_val_outputs.csv``` --
+  * ```BLEU_val_baseline_scores.json``` --
+  * ```NodeXL_tweets_labels.csv``` --
     
 ## Table of Contents
 
@@ -24,26 +28,27 @@ Code for the image-to-text model to generate captions and entities from social m
 
 ## Installation
 
-Instructions on how to install and set up the project.
+All the files necessary for running the codes are within the repository. Ensure that you have access to the repository containing the code files. The code provided assumes that you have the necessary permissions to access the specified directory (/content/drive/My Drive/Colab Notebooks). Modify the folder_path variable if your directory structure is different.
+
+In case you encounter difficulty in extracting or accessing the files in the repository, direct download links are provided for your convenience. Simply use these links to download the required files directly to your system. This ensures that you can access the necessary files without relying on repository access.
 
   * ```annotations.zip``` -- link to download the [annotations file](https://vizwiz.cs.colorado.edu/VizWiz_final/caption/annotations.zip) with 117,155 training captions; 40,000 test captions; and 38,750 validation captions in JSON format.
-  * ```train.zip``` -- link to download the [train dataset](https://vizwiz.cs.colorado.edu/VizWiz_final/images/train.zip) with 23,431 images in .jpg format. 
-  * ```test.zip```  -- link to download the [test dataset](https://vizwiz.cs.colorado.edu/VizWiz_final/images/test.zip) with 8,000 images .jpg format. 
   * ```val.zip``` -- link to download the [validations dataset](https://vizwiz.cs.colorado.edu/VizWiz_final/images/val.zip) with 7,750 images .jpg format.
   * ```NodeXLWorkbook-294548.xlsx``` --link to download the [social media sample dataset from X (former Twitter)](https://nodexlgraphgallery.org/Pages/Workbook.ashx?graphID=294548) from the Node XL Graph gallery from the Social Media Research Foundation.
+  <!---* ```train.zip``` -- link to download the [train dataset](https://vizwiz.cs.colorado.edu/VizWiz_final/images/train.zip) with 23,431 images in .jpg format. 
+  * ```test.zip```  -- link to download the [test dataset](https://vizwiz.cs.colorado.edu/VizWiz_final/images/test.zip) with 8,000 images .jpg format.--->
 
 ## Usage
 
-Clone the Repository:
-git clone https://github.com/yourusername/capstone-team-29.git
+1. Clone the Repository:
+    git clone https://github.com/vgaquino/capstone-team-29.git
 
-Open the Notebook:Navigate to the cloned repository on your local machine.
-    Open the .ipynb file in Google Colab.
+2. Open the Notebook and navigate to the cloned repository on your local machine.
+    Open the respective .ipynb files in Google Colab.
 
-Run the Notebook:
+3. Check if the default directory exists for the file paths. You may create it running the 'requirements.txt':
 
-    Follow the instructions within the notebook to execute the code.
-    Make sure to install any required dependencies specified in the notebook.
+4. Follow the instructions within the notebooks to execute the code.
 
 ## Credits
 
@@ -52,4 +57,5 @@ We extend our sincere appreciation to the [Social Media Research Foundation](htt
 ## References 
 
 - [VizWiz Project](http://vizwiz.org)
-- BLEU: [BLEU: a Method for Automatic Evaluation of Machine Translation](http://www.aclweb.org/anthology/P02-1040.pdf)
+- [BLEU: a Method for Automatic Evaluation of Machine Translation](http://www.aclweb.org/anthology/P02-1040.pdf)
+- [Kosmos-2: Grounding Multimodal Large Language Models to the World paper](https://arxiv.org/abs/2306.14824)
