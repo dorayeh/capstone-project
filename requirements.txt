@@ -29,3 +29,11 @@ stop_words = set(stopwords.words('english'))
 
 from google.colab import drive
 drive.mount('/content/drive')
+
+folder_path = "/content/drive/My Drive/Colab Notebooks"
+
+if not os.path.exists(folder_path):
+    os.makedirs(folder_path)
+    print("Folder created successfully.")
+else:
+    print("Folder already exists.")
