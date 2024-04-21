@@ -3,23 +3,6 @@
 # Image-to-text Model for Social Media Network Analysis
 
 Code for the image-to-text model to generate captions and entities from social media content.
-
-## Requirements
-
-      <review with Jerry> e.g. AWS requirements and *used libraries*!
-  import boto3<br />
-  import jsonimport requests<br />
-  import nltk<br />
-  from nltk.corpus import stopwords<br />
-  from PIL import Image<br />
-  from transformers import AutoProcessor, AutoModelForVision2Seq<br />
-  from PIL import Image<br />
-  import requests<br />
-  from transformers import Blip2Processor, Blip2ForConditionalGeneration<br />
-  import torch<br />
-  import pandas as pd<br />
-  import networkx as nx<br />
-  from itertools import combinations<br />
   
 ## Files
 
