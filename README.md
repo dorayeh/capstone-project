@@ -6,12 +6,15 @@ Code for the image-to-text model to generate captions and entities from social m
   
 ## Files
 
-  * > review ```amazon-rekognition.ipynb``` -- code to send images to Amazon cloud-based image and video analysis service.
-  * > review ```amazon_rekognition_on_nodexl_query.ipynb``` -- code to extract image-to-text labels from NodeXL sample file.
+  * ```amazon-rekognition.ipynb``` -- code to send images to Amazon cloud-based image and video analysis service.
+  * ```amazon_rekognition_on_nodexl_query.ipynb``` -- code to extract image-to-text labels from NodeXL sample file.
   * ```blip2-opt-2_7b.ipynb``` -- code to run BLIP  (Bootstrapping Language Image Pre-training) model for visual question answering.
   * ```kosmos-2-patch14-224.ipynb``` -- code to run image processor and tokenizer.
   * ```network_analysis_on_nodexl_data.ipynb``` -- code for generating networks from image-to-text data
-
+  * ```model_evaluation_kosmos.ipynb``` -- code for generating networks from image-to-text data
+  * ```model_evaluation_blip2.ipynb``` -- code for generating networks from image-to-text data
+  * ```model_evaluation_AWS.ipynb``` -- code for generating networks from image-to-text data
+    
 ## Table of Contents
 
 - [Installation](#installation)
@@ -31,7 +34,16 @@ Instructions on how to install and set up the project.
 
 ## Usage
 
-Guidance on how to use the project, including examples or code snippets.
+Clone the Repository:
+git clone https://github.com/yourusername/capstone-team-29.git
+
+Open the Notebook:Navigate to the cloned repository on your local machine.
+    Open the .ipynb file in Google Colab.
+
+Run the Notebook:
+
+    Follow the instructions within the notebook to execute the code.
+    Make sure to install any required dependencies specified in the notebook.
 
 ## Credits
 
@@ -40,8 +52,4 @@ We extend our sincere appreciation to the [Social Media Research Foundation](htt
 ## References 
 
 - [VizWiz Project](http://vizwiz.org)
-- PTBTokenizer: We use the [Stanford Tokenizer](http://nlp.stanford.edu/software/tokenizer.shtml) which is included in [Stanford CoreNLP 3.4.1](http://nlp.stanford.edu/software/corenlp.shtml).
 - BLEU: [BLEU: a Method for Automatic Evaluation of Machine Translation](http://www.aclweb.org/anthology/P02-1040.pdf)
-- Meteor: [Project page](http://www.cs.cmu.edu/~alavie/METEOR/) with related publications. We use the latest version (1.5) of the [Code](https://github.com/mjdenkowski/meteor). Changes have been made to the source code to properly aggreate the statistics for the entire corpus.
-- Rouge-L: [ROUGE: A Package for Automatic Evaluation of Summaries](http://anthology.aclweb.org/W/W04/W04-1013.pdf)
-- SPICE: [SPICE: Semantic Propositional Image Caption Evaluation](https://arxiv.org/abs/1607.08822)
