@@ -9,15 +9,15 @@ Code for the image-to-text model to generate captions and entities from social m
   * ```amazon-rekognition.ipynb``` -- send images to Amazon cloud-based image and video analysis service <update>
   * ```blip2-opt-2_7b.ipynb``` -- run BLIP (Bootstrapping Language Image Pre-training) model for visual captioning
   * ```kosmos-2-patch14-224.ipynb``` -- run visual captioning and entities extraction tasks using Kosmos-2
-  * ```model_evaluation_kosmos.ipynb``` -- code for evaluation from image-to-text data
-  * ```model_evaluation_blip2.ipynb``` -- code for generating networks from image-to-text data
-  * ```model_evaluation_AWS.ipynb``` -- code for generating networks from image-to-text data
+  * ```model_evaluation_kosmos.ipynb``` -- 
+  * ```model_evaluation_blip2.ipynb``` -- 
+  * ```model_evaluation_AWS.ipynb``` -- 
   * ```amazon_rekognition_on_nodexl_query.ipynb``` -- code to extract image-to-text labels from NodeXL sample file.
   * ```network_analysis_on_nodexl_data.ipynb``` -- code for generating networks from image-to-text data.
-  * ```blip2_val_outputs.csv``` -- dataset with the outputs from 
-  * ```kosmos_val_outputs.csv``` --
+  * ```blip2_val_outputs.csv``` -- .csv file with the outputs from BLIP-2 model on each image ID from the VizWiz validation dataset (val.zip)
+  * ```kosmos_val_outputs.csv``` -- .csv file with the outputs from Kosmos-2 model on each image ID from the VizWiz validation dataset (val.zip)
   * ```BLEU_val_baseline_scores.json``` --
-  * ```NodeXL_tweets_labels.csv``` --
+  * ```NodeXL_tweets_labels.csv``` -- .csv file with the outputs from Amazon Rekognition on a sample file for application purposes
     
 ## Table of Contents
 
@@ -41,12 +41,12 @@ In case you encounter difficulty in extracting or accessing the files in the rep
 ## Usage
 
 1. Clone the Repository:
-    git clone https://github.com/vgaquino/capstone-team-29.git
+    ```git clone https://github.com/vgaquino/capstone-team-29.git```
 
 2. Open the Notebook and navigate to the cloned repository on your local machine.
     Open the respective .ipynb files in Google Colab.
 
-3. Check if the default directory exists for the file paths. You may create it running the 'requirements.txt':
+3. Check if the default directory exists for the file paths. You may create it running the ```'requirements.txt'```:
 
 4. Follow the instructions within the notebooks to execute the code.
 
