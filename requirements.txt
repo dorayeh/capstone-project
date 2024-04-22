@@ -40,4 +40,5 @@ if not os.path.exists(folder_path):
 else:
     print("Folder already exists.")
 
-# you will need to update your !aws configure settings in the 'model_evaluation_rekognition.ipynb'
+# You will and Amazon Web Services Account in order to run the Rekognition cloud-based model.
+# You will be prompt to update your !aws configure settings in the 'model_evaluation_rekognition.ipynb'
