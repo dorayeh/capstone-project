@@ -12,12 +12,13 @@ Code for the image-to-text model to generate captions, entities, and/or labels f
   * ```model_evaluation_kosmos.ipynb``` -- generate the evaluation scores against the groundtruth captions from VizWiz for Kosmos-2 model
   * ```model_evaluation_blip2.ipynb``` -- generate the evaluation scores against the groundtruth captions from VizWiz for BLIP-2 model
   * ```model_evaluation_AWS.ipynb``` -- send images to Amazon cloud-based image and video analysis service and generate the evaluation scores against the groundtruth captions from VizWiz for Rekognition model
+  * ```model_evaluation_baseline.ipynb -- generate the baseline results for the tokenized captions from VizWiz using BLEU score
+  * ```BLEU_val_baseline_scores.json``` -- output with the score results in JSON
   * ```amazon_rekognition_on_nodexl_query.ipynb``` -- code to extract image-to-text labels from NodeXL sample file
   * ```network_analysis_on_nodexl_data.ipynb``` -- code for generating networks from image-to-text data
   * ```blip2_val_outputs.csv``` -- .csv file with the outputs from BLIP-2 model on each image ID from the VizWiz validation dataset (val.zip)
   * ```kosmos_val_outputs.csv``` -- .csv file with the outputs from Kosmos-2 model on each image ID from the VizWiz validation dataset (val.zip)
   * ```rekognition_val_outputs.csv``` -- .csv file with the outputs from Amazon Rekognition model on each image ID from the VizWiz validation dataset (val.zip)
-  * ```BLEU_val_baseline_scores.json``` -- baseline results for the tokenized captions from VizWiz using BLEU score
   * ```NodeXL_tweets_labels.csv``` -- .csv file with the outputs from Amazon Rekognition on a sample file for application purposes
     
 ## Table of Contents
