@@ -39,3 +39,5 @@ if not os.path.exists(folder_path):
     print("Folder created successfully.")
 else:
     print("Folder already exists.")
+
+# you will need to update your !aws configure settings in the 'model_evaluation_rekognition.ipynb'
