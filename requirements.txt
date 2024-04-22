@@ -32,6 +32,7 @@ from nltk.translate.bleu_score import corpus_bleu, sentence_bleu, SmoothingFunct
 from google.colab import drive
 drive.mount('/content/drive')
 
+#Set the working folder, if not available by default
 folder_path = "/content/drive/My Drive/Colab Notebooks"
 
 if not os.path.exists(folder_path):
