@@ -16,7 +16,8 @@ Code for the image-to-text model to generate captions and entities from social m
   * ```network_analysis_on_nodexl_data.ipynb``` -- code for generating networks from image-to-text data
   * ```blip2_val_outputs.csv``` -- .csv file with the outputs from BLIP-2 model on each image ID from the VizWiz validation dataset (val.zip)
   * ```kosmos_val_outputs.csv``` -- .csv file with the outputs from Kosmos-2 model on each image ID from the VizWiz validation dataset (val.zip)
-  * ```BLEU_val_baseline_scores.json``` -- baseline results for the tokenized captions from VizWiz
+  * ```rekognition_val_outputs.csv``` -- .csv file with the outputs from Amazon Rekognition model on each image ID from the VizWiz validation dataset (val.zip)
+  * ```BLEU_val_baseline_scores.json``` -- baseline results for the tokenized captions from VizWiz using BLEU score
   * ```NodeXL_tweets_labels.csv``` -- .csv file with the outputs from Amazon Rekognition on a sample file for application purposes
     
 ## Table of Contents
