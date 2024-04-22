@@ -12,7 +12,7 @@ Code for the image-to-text model to generate captions, entities, and/or labels f
   * ```model_evaluation_kosmos.ipynb``` -- generate the evaluation scores against the groundtruth captions from VizWiz for Kosmos-2 model
   * ```model_evaluation_blip2.ipynb``` -- generate the evaluation scores against the groundtruth captions from VizWiz for BLIP-2 model
   * ```model_evaluation_AWS.ipynb``` -- send images to Amazon cloud-based image and video analysis service and generate the evaluation scores against the groundtruth captions from VizWiz for Rekognition model
-  * ```model_evaluation_baseline.ipynb -- generate the baseline results for the tokenized captions from VizWiz using BLEU score
+  * ```model_evaluation_baseline.ipynb``` -- generate the baseline results for the tokenized captions from VizWiz using BLEU score
   * ```BLEU_val_baseline_scores.json``` -- output with the score results in JSON
   * ```amazon_rekognition_on_nodexl_query.ipynb``` -- code to extract image-to-text labels from NodeXL sample file
   * ```network_analysis_on_nodexl_data.ipynb``` -- code for generating networks from image-to-text data
