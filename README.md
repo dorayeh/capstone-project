@@ -48,7 +48,7 @@ In case you encounter difficulty in extracting or accessing the files in the rep
 2. Open the Notebook and navigate to the cloned repository on your local machine.
     Open the respective .ipynb files in Google Colab.
 
-3. Check if the default directory exists for the file paths. You may create it running the ```'requirements.txt'```:
+3. Check if the default directory exists for the file paths. You may create it running the ```'requirements.txt'```.
 
 4. Follow the instructions within the notebooks to execute the code.
 
