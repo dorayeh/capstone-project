@@ -2,7 +2,7 @@
 
 # Image-to-text Model for Social Media Network Analysis
 
-Code for the image-to-text model to generate captions and entities from social media content.
+Code for the image-to-text model to generate captions, entities, and/or labels from social media content to enhance network analysis applications.
   
 ## Files
 
