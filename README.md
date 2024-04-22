@@ -6,12 +6,11 @@ Code for the image-to-text model to generate captions, entities, and/or labels f
   
 ## Files
 
-  <!-- * ```amazon-rekognition.ipynb``` -- send images to Amazon cloud-based image and video analysis service <update> -->
   * ```blip2-opt-2_7b.ipynb``` -- run BLIP (Bootstrapping Language Image Pre-training) model for visual captioning
   * ```kosmos-2-patch14-224.ipynb``` -- run visual captioning and entities extraction tasks using Kosmos-2
-  * ```model_evaluation_kosmos.ipynb``` -- generate the evaluation scores against the groundtruth captions from VizWiz for Kosmos-2 model
   * ```model_evaluation_blip2.ipynb``` -- generate the evaluation scores against the groundtruth captions from VizWiz for BLIP-2 model
-  * ```model_evaluation_AWS.ipynb``` -- send images to Amazon cloud-based image and video analysis service and generate the evaluation scores against the groundtruth captions from VizWiz for Rekognition model
+  * ```model_evaluation_kosmos.ipynb``` -- generate the evaluation scores against the groundtruth captions from VizWiz for Kosmos-2 model
+  * ```model_evaluation_rekognition.ipynb``` -- send images to Amazon cloud-based image and video analysis service and generate the evaluation scores against the groundtruth captions from VizWiz for Rekognition model
   * ```model_evaluation_baseline.ipynb``` -- generate the baseline results for the tokenized captions from VizWiz using BLEU score
   * ```BLEU_val_baseline_scores.json``` -- output with the score results in JSON
   * ```amazon_rekognition_on_nodexl_query.ipynb``` -- code to extract image-to-text labels from NodeXL sample file
