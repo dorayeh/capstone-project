@@ -62,3 +62,5 @@ We extend our sincere appreciation to the [Social Media Research Foundation](htt
 - [VizWiz Project](http://vizwiz.org)
 - [BLEU: a Method for Automatic Evaluation of Machine Translation](http://www.aclweb.org/anthology/P02-1040.pdf)
 - [Kosmos-2: Grounding Multimodal Large Language Models to the World paper](https://arxiv.org/abs/2306.14824)
+- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)
+- [Amazon Rekognition - cloud-based image recognition and video analysis with machine learning](https://aws.amazon.com/rekognition/)
