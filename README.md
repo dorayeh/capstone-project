@@ -21,6 +21,7 @@ Code for the image-to-text model to generate captions, entities, and/or labels f
   * ```rekognition_val_outputs.csv``` -- .csv file with the outputs from Amazon Rekognition model on each image ID from the VizWiz validation dataset (val.zip)
   * ```NodeXL_tweets_labels.csv``` -- .csv file with the outputs from Amazon Rekognition on a sample file for application purposes
   * ```image_network_data_csv_generation.ipynb``` --  generate the image pairs labels for application tasks.
+  * ```model_evaluation_AWS-visualization_creation.ipynb``` -- generate the AWS evaluation visualizations.
     
 ## Table of Contents
 
