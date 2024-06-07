@@ -5,7 +5,7 @@
 Code for the image-to-text model to generate captions, entities, and/or labels from social media content to enhance network analysis applications.
   
 ## Files
-
+  * ```Capstone Report - Team 29 (1).pdf``` -- Final project report
   * ```blip2-opt-2_7b.ipynb``` -- run BLIP (Bootstrapping Language Image Pre-training) model for visual captioning
   * ```kosmos-2-patch14-224.ipynb``` -- run visual captioning and entities extraction tasks using Kosmos-2
   * ```model_evaluation_blip2.ipynb``` -- generate the evaluation scores against the groundtruth captions from VizWiz for BLIP-2 model
